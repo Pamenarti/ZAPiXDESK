@@ -11,8 +11,7 @@ ______  ___  ______ ___   _______ _____ _____ _   __
                                        ZAPiXDESK
 ```
                                        
-Copyrights: 2025 Alberto Magno <alberto.magno@gmail.com> 
-LICENSE GNU General Public License v3.0
+
 
 # Description: 
 A script that extracts DBKey and decrypt all SQLITE3 database files (including db and write-ahead-logfiles ). 
@@ -22,8 +21,6 @@ Some information also in: https://medium.com/@alberto.magno/whatsapp-desktop-and
 Technique based on reverse-engineering-fu (yes! you do not need to use SQLITE3 SEE to decrypt) and some infos contained in following paper:
 Giyoon Kim, Uk Hur, Soojin Kang, Jongsung Kim,Analyzing the Web and UWP versions of WhatsApp for digital forensics,
 Forensic Science International: Digital Investigation,Volume 52,2025,301861,ISSN 2666-2817,
-https://doi.org/10.1016/j.fsidi.2024.301861.
-(https://www.sciencedirect.com/science/article/pii/S2666281724001884)
 
 # Operation:
 - First, it obtains the OfflineDeviceUniqueID, indicating the method used (TPM, REGISTRY, etc...), used in keys derivation linked to the machine.
